@@ -18,6 +18,7 @@ const Cart = (props) => {
   const cartItemAddHandler = (item) => {
     cartCtx.addItem({ ...item, amount: 1 });
   };
+  // some dummy comment
 
   const cartItems = (
     <ul className={classes['cart-items']}>
